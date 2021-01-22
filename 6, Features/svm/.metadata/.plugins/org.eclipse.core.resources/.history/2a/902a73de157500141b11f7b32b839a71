@@ -1,0 +1,13 @@
+
+public class spam_main {
+
+	public static void main(String[] args) {
+		double [][] train_data = FileReading.ReadFile("housing_train.txt");
+		double [][] normal_train_data = Util.getNormalizedData(train_data); 
+		
+		
+		
+		
+	}
+}
+

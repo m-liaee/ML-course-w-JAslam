@@ -1,0 +1,21 @@
+
+public class Util {
+	
+	public double [][] getNormalizedData(double[][] data){
+		int n = data.length; 
+		int m = data[0].length; 
+		
+		double [][] normal_data = new double [n][m]; 
+		
+		for (int i = 0 ; i < n ; i++){
+			for (int j = 0 ; j < m ; j++){
+				
+			}
+			
+		}
+		
+		return normal_data; 
+		
+	}
+
+}

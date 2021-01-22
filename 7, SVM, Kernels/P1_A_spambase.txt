@@ -1,0 +1,4 @@
+size of file is 4601 * 58
+accuracy rate for k = 1,  0.9239130434782609
+accuracy rate for k = 3,  0.908695652173913
+accuracy rate for k = 7,  0.9217391304347826

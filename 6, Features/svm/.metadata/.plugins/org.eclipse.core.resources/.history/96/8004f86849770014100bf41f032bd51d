@@ -1,0 +1,34 @@
+public class SVM {
+	
+	SVM_Param svm_parameter;
+	double[] alphas;
+	
+	public SVM(SVM_Param p){
+		svm_parameter = p; 
+	}
+
+	public SVM_Model train(double[][] train_data){
+		int n = train_data.length; 
+		alphas = new double [n];
+		Util.initial_array(alphas, 0);
+		
+		
+		boolean converged = false; 
+		
+		while ( !converged ){
+			double[] 2_alphas_indices = choose_best_2_alphas(); 
+			
+		}
+		
+		
+		return null; 
+	}
+	
+	public int predict( SVM_Model model, double[] single_data_f){
+		return 0; 
+	}
+	
+	public double [] choose_best_2_alphas(){
+		return null
+	}
+}

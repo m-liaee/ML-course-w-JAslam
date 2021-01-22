@@ -1,0 +1,14 @@
+
+public class Util {
+	
+	public double [][] getNormalizedData(double[][] data){
+		int n = data.length; 
+		int m = data[0].length; 
+		
+		double [][] normal_data = new double [n][m]; 
+		
+		return normal_data; 
+		
+	}
+
+}

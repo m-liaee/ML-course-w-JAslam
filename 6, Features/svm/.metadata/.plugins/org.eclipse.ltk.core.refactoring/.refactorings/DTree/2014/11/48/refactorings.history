@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FileReading.java&apos; to &apos;SVM-lib/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;DTree&apos;&#x0D;&#x0A;- Destination element: &apos;SVM-lib/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;FileReading.java&apos;" description="Copy compilation unit" destination="=SVM-lib/src&lt;" element1="/src&lt;{FileReading.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1416882007982" units="1" version="1.0"/>
+</session>

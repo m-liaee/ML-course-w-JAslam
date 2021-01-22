@@ -1,0 +1,81 @@
+import java.util.ArrayList;
+
+
+public class main_image {
+	
+	public static void main(String[] args) throws Exception {
+		
+		/**/
+		
+		 
+		int percent = 10; 
+		int num_classes = 10;
+		
+		int distance = 12;
+		int num_functions = 25; 
+		
+		int num_rectangle = 100;
+		int num_features = 2 * num_rectangle;
+		
+		String image_f = "train-images.idx3-ubyte"; 
+		String label_f = "train-labels.idx1-ubyte";
+		
+		String image_f_test = "test-images.idx3-ubyte"; 
+		String label_f_test = "test-labels.idx1-ubyte";
+		
+		 
+		ArrayList<Rectanglee> recs = Rectanglee.getRandomRectangles(num_rectangle);
+		System.out.println(num_rectangle + " Rectangles are sampled.");
+		
+		Parser p = new Parser(label_f, image_f);
+		p.extract_features_labels(recs);
+
+		Parser p_test = new Parser(label_f_test, image_f_test);
+		p_test.extract_features_labels(recs);
+
+		/**/
+
+		/**/
+		ArrayList<Integer> indices = Util.getIndices_somePercent(p.labels_vals, percent, num_classes);
+		ArrayList<Double> train_labels = Util.getSubArray(indices, p.labels_vals); 
+		ArrayList<Feature_Values> train_f_vals = Util.getElements(indices, p.data_feat_values);
+		
+		
+		
+		double [] mean = new double [num_features]; 
+		double [] sigma = new double [num_features];
+		
+		double [][] train_data = Util.getMatrix(train_f_vals, num_features);
+		double [] train_y = Util.getArray(train_labels);
+		
+		train_data = Util.get_z_score_normalize(train_data, false, mean, sigma);
+
+		double [][] test_data = Util.getMatrix(p_test.data_feat_values, num_features);
+		double [] test_y = Util.getArray(p_test.labels_vals );
+				 
+		test_data = Util.get_z_score_normalize(test_data, true, mean, sigma); 
+		
+//		for (int i = 0 ; i < num_features ; i++){
+//			System.out.println(mean[i] + " " + sigma[i]);
+//		} 
+		
+//		System.out.println(train_data.length);
+//		System.out.println(test_data.length);
+		/**/
+		
+		/**
+		SVM_Param param = new SVM_Param(); 
+		param.setLinearParam(0.01, 0.95, 0.01);
+		
+		
+		Ecoc ecoc = new Ecoc( distance, num_functions, num_classes, param);
+		ArrayList<Platt_SVM> models = ecoc.Train(train_data, train_y);
+		ecoc.Test(train_data, train_y, models);
+		
+		
+		
+
+		ecoc.Test(test_data, test_y, models); 
+		/**/
+	}
+}

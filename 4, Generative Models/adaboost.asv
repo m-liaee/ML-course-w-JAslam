@@ -1,0 +1,37 @@
+function model = adaboost(model, train_data, decision_stumps, is_random, T)
+
+[n,m] = size(train_data); 
+
+initial_dist = ones(1,n)/n; 
+dist = initial_dist; 
+
+train_f_func = 0; 
+
+
+for t = 1:T
+        
+    if is_random 
+        d_stump = get_rand_decision_stump(train_data, decision_stumps, dist); 
+    else 
+        d_stump = get_opt_decision_stump(train_data, decision_stumps, dist); 
+    end
+   
+     predicted_val = get_prediction(d_stump, train_data);    
+     train_y = train_data(:,m);
+     
+     local_error = get_error(dist,predicted_val,train_y); 
+     
+     alpha = 1/2 * (log(1-local_error) - log(local_error)); 
+     
+     train_f_func = train_f_func + alpha * predicted_val; 
+     train_error = get_error(initial_dist, sign(train_f_func),train_y); 
+     
+     dist = updata_dist(dist,alpha, predicted_val, train_y);  
+           
+     model_alpha = [model_alpha; alpha]; 
+     model_dc_stumps = [model_dc_stumps d_stump]; 
+     
+     model = [model; d_stump al]
+
+end 
+

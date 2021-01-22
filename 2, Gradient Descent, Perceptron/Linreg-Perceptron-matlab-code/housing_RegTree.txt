@@ -1,0 +1,39 @@
+size of file is 433 * 14
+size of file is 74 * 14
+
+
+When the number of level is at most: 0 : 
+train error (MSE) is: 89.99426 and test error (MSE) is: 44.622746
+
+When the number of level is at most: 1 : 
+train error (MSE) is: 50.571056 and test error (MSE) is: 27.945751
+
+When the number of level is at most: 2 : 
+train error (MSE) is: 26.990704 and test error (MSE) is: 20.338905
+
+When the number of level is at most: 3 : 
+train error (MSE) is: 18.343252 and test error (MSE) is: 19.494171
+
+When the number of level is at most: 4 : 
+train error (MSE) is: 10.390989 and test error (MSE) is: 20.059525
+
+When the number of level is at most: 5 : 
+train error (MSE) is: 6.494752 and test error (MSE) is: 22.125965
+
+When the number of level is at most: 6 : 
+train error (MSE) is: 3.1907687 and test error (MSE) is: 24.624584
+
+When the number of level is at most: 7 : 
+train error (MSE) is: 1.1626129 and test error (MSE) is: 23.113117
+
+When the number of level is at most: 8 : 
+train error (MSE) is: 0.2880853 and test error (MSE) is: 23.16362
+
+When the number of level is at most: 9 : 
+train error (MSE) is: 0.0724765 and test error (MSE) is: 23.506775
+
+When the number of level is at most: 10 : 
+train error (MSE) is: 0.0038645107 and test error (MSE) is: 23.41612
+
+When the number of level is at most: 11 : 
+train error (MSE) is: 5.7736284E-5 and test error (MSE) is: 23.395002

@@ -1,0 +1,100 @@
+folder #1 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #2 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #3 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #4 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #5 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #6 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #7 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #8 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #9 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+folder #10 :
+decision stumps are just created.
+adaboost is training: round #50
+adaboost is training: round #100
+adaboost is training: round #150
+adaboost is training: round #200
+adaboost is training: round #250
+adaboost is training: round #300
+   52.0000   51.9060
+   53.0000   41.2957
+   57.0000   22.7297
+   16.0000   20.4172
+   27.0000   18.0541
+    7.0000   17.1745
+   25.0000   14.1876
+   55.0000   13.0917
+   23.0000    8.4606
+    5.0000    7.4512
+   19.0000    6.8249
+   24.0000    6.2158
+    6.0000    6.0642
+   21.0000    4.7096
+   17.0000    2.6810
+    8.0000    2.3902
+   56.0000    2.2991
+   14.0000    2.0023
+   15.0000    1.9787
+   37.0000    1.8695

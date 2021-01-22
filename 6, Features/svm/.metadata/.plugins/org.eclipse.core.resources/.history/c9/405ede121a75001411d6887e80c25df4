@@ -1,0 +1,37 @@
+import libsvm.*; 
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		double [][] train_data = FileReading.ReadFile("spambase.data");
+		double [][] normal_train_data = Util.getNormalizedData(train_data); 
+		
+		System.out.println(train_data[0][0]);
+		System.out.println(normal_train_data[0][0]);
+		
+		svm_problem prob = new svm_problem();
+		int dataCount = train_data.length;
+		
+		
+	    svm_parameter param = new svm_parameter();
+	    param.probability = 1;
+	    param.gamma = 0.5;
+	    param.nu = 0.5;
+	    param.C = 1;
+	    param.svm_type = svm_parameter.C_SVC;
+	    param.kernel_type = svm_parameter.POLY;       
+	    param.cache_size = 20000;
+	    param.eps = 0.001;      
+
+	    svm_model model = svm.svm_train(prob, param);
+
+	    
+		
+		
+		
+		
+		
+	}
+}
+

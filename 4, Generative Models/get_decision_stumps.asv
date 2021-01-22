@@ -1,0 +1,25 @@
+function stump_arr = get_decision_stumps(data)
+    [n,m] = size(data); 
+
+    stump_arr = []; 
+
+    for j = 1 : m-1
+        feature_j_values = data(:,j); 
+        feature_j_values = unique(feature_j_values);
+        feature_j_values = sort(feature_j_values); 
+        
+        new_entry = [j feature_j_values(0) - 0.1]; 
+        stump_arr = [stump_arr; new entry]; 
+
+        len = size(feature_j_value,1); 
+        
+        for k = 1:len-1
+            feature_j_thresh = (feature_j_values(k) + feature_j_values(k+1))/2;
+            new_entry = [j feature_j_thresh ]; 
+            stump_arr = [stump_arr; new entry];     
+        end
+        
+        new_entry = [j feature_j_values(end) + 0.1 ]; 
+        stump_arr = [stump_arr; new entry];         
+    end
+end

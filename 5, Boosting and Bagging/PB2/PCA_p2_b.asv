@@ -1,0 +1,37 @@
+%PCA
+clc; 
+format long
+lambda = 0.5;     
+threshold = 0; 
+num_bins = 2; 
+
+train_data = importdata('spam_polluted\train_feature.txt');
+train_y = importdata('spam_polluted\train_label.txt'); 
+
+n = size(train_data,1); 
+
+test_data = importdata('spam_polluted\test_feature.txt'); 
+test_y = importdata('spam_polluted\test_label.txt'); 
+display('reading data is finished.'); 
+
+[train_acc test_acc] = naive_bucket([train_data train_y], [test_data test_y], threshold, num_bins ); 
+display([train_acc test_acc]); 
+
+[w, pc] = princomp([train_data test_data]); 
+
+whole_data = pc(:,1:100); 
+nn = size(whole_data,1); 
+new_train_data = [whole_data(1:n,:) train_y]; 
+new_test_data = [whole_data(n+1:nn, :) test_y]; 
+
+test_data = test_data * w; 
+[w_test pc_test] = princomp(test_data); 
+new_test_data = pc_test(:,1:100); 
+new_test_data = [new_test_data test_y]; 
+ 
+display('trainning ... '); 
+ 
+[train_acc test_acc] = naive_bucket(new_train_data, new_test_data, threshold, num_bins ); 
+display([train_acc test_acc]); 
+    
+    

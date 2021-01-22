@@ -1,0 +1,279 @@
+Decision Stumps are created.
+Haming row# 0 is created.
+Haming row# 1 is created.
+Haming row# 2 is created.
+Haming row# 3 is created.
+Haming row# 4 is created.
+Haming row# 5 is created.
+Haming row# 6 is created.
+Haming row# 7 is created.
+,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0
+,0,1,0,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,1,0
+,1,1,0,1,0,0,0,1,1,0,1,0,1,0,1,1,0,0,1,0
+,0,1,0,1,1,1,1,0,0,0,1,1,0,1,0,1,1,0,1,1
+,1,0,1,1,0,0,0,0,0,1,0,1,1,1,0,0,1,1,0,1
+,1,1,1,0,1,0,1,1,1,1,1,0,0,1,1,0,1,1,1,1
+,1,0,1,0,1,1,0,1,0,0,0,1,1,1,1,0,0,0,1,0
+,0,1,1,0,0,0,1,0,0,0,0,0,1,0,1,1,0,1,0,1
+function # 0
+function #0 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #0's training is finished.
+function # 1
+function #1 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #1's training is finished.
+function # 2
+function #2 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #2's training is finished.
+function # 3
+function #3 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #3's training is finished.
+function # 4
+function #4 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #4's training is finished.
+function # 5
+function #5 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #5's training is finished.
+function # 6
+function #6 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #6's training is finished.
+function # 7
+function #7 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #7's training is finished.
+function # 8
+function #8 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #8's training is finished.
+function # 9
+function #9 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #9's training is finished.
+function # 10
+function #10 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #10's training is finished.
+function # 11
+function #11 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #11's training is finished.
+function # 12
+function #12 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #12's training is finished.
+function # 13
+function #13 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #13's training is finished.
+function # 14
+function #14 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #14's training is finished.
+function # 15
+function #15 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #15's training is finished.
+function # 16
+function #16 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #16's training is finished.
+function # 17
+function #17 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #17's training is finished.
+function # 18
+function #18 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #18's training is finished.
+function # 19
+function #19 is training.
+ round #0
+ round #20
+ round #40
+ round #60
+ round #80
+ round #100
+ round #120
+ round #140
+ round #160
+ round #180
+function #19's training is finished.
+accuracy rate: 0.7970655824642037, error rate: 0.20293441753579633
+accuracy rate: 0.7554434413170472, error rate: 0.24455655868295278

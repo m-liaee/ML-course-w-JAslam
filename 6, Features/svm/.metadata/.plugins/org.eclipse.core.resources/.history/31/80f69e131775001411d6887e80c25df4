@@ -1,0 +1,17 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		double [][] train_data = FileReading.ReadFile("spambase.data");
+		double [][] normal_train_data = Util.getNormalizedData(train_data); 
+		
+		System.out.println(train_data.length);
+		
+		
+		
+		
+		
+	}
+}
+

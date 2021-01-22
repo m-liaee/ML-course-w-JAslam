@@ -1,0 +1,33 @@
+size of file is 4601 * 58
+errors for 1 th folder
+train error rate is: 0.063043475 and test error rate is: 0.15184382
+
+errors for 2 th folder
+train error rate is: 0.05193237 and test error rate is: 0.19522777
+
+errors for 3 th folder
+train error rate is: 0.06352657 and test error rate is: 0.1583514
+
+errors for 4 th folder
+train error rate is: 0.04516908 and test error rate is: 0.19088937
+
+errors for 5 th folder
+train error rate is: 0.06570049 and test error rate is: 0.047722343
+
+errors for 6 th folder
+train error rate is: 0.064492755 and test error rate is: 0.060737528
+
+errors for 7 th folder
+train error rate is: 0.061594203 and test error rate is: 0.07375271
+
+errors for 8 th folder
+train error rate is: 0.0647343 and test error rate is: 0.030368764
+
+errors for 9 th folder
+train error rate is: 0.0647343 and test error rate is: 0.03470716
+
+errors for 10 th folder
+train error rate is: 0.0626657 and test error rate is: 0.121681415
+
+We build tree with no more levels than 7
+average error is : 0.10652824

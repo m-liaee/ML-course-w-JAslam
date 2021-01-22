@@ -1,0 +1,23 @@
+
+data = importdata('spambase.data');
+[n,m] = size(data); 
+nonspam_indices = (data(:,m) == 0) ; 
+data(nonspam_indices,m) = -1; 
+
+k = 10 ; 
+
+for i = 1:k
+    
+     sprintf('folder #%d :',i);    
+     test_indices = i:10:n; 
+     test_data = data(test_indices,:); 
+     
+     train_data = data; 
+     train_data(test_indices,:) = [];         
+     
+     dc_stumps = get_decision_stumps(train_data); 
+         
+     %adaboost(train_data, test_data, dc_stumps); 
+    
+end
+    

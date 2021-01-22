@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Param&apos; to &apos;SVM_Param&apos;&#x0D;&#x0A;- Original project: &apos;MySVM&apos;&#x0D;&#x0A;- Original element: &apos;Param&apos;&#x0D;&#x0A;- Renamed element: &apos;SVM_Param&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Param&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Param.java[Param" matchStrategy="1" name="SVM_Param" qualified="false" references="true" similarDeclarations="false" stamp="1417208352941" textual="false" version="1.0"/>
+</session>

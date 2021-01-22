@@ -1,0 +1,38 @@
+
+public class main_spambase {
+
+	public static void main(String[] args){
+		
+		FileReading fr = new FileReading(); 
+		fr.ReadFile("spambase.data");
+		fr.split_test_train();
+		
+		double [][] train_data = fr.train_data; 
+		double [] train_y = fr.train_y; 
+		
+		
+		double [][] test_data = fr.test_data; 
+		double [] test_y = fr.test_y; 
+
+		int m = train_data[0].length; 
+		double [] minn = new double [m]; 
+		double [] maxx = new double [m];
+		
+		train_data = Util.getNormalizedData(train_data, false, minn, maxx); 
+		test_data = Util.getNormalizedData(test_data, true, minn, maxx);	
+		
+		double[] arr = new double[10];
+		Util.initial_array(arr, 11);
+		
+		System.out.println(arr[4]);
+		
+		
+		
+		
+		 
+		
+
+	}
+	
+
+}

@@ -1,0 +1,39 @@
+size of train file is 433 * 14
+size of test file is 74 * 14
+
+
+When the number of level is at most: 0 : 
+train error rate is: 9.48653 and test error rate is: 6.680026
+
+When the number of level is at most: 1 : 
+train error rate is: 7.111333 and test error rate is: 5.286374
+
+When the number of level is at most: 2 : 
+train error rate is: 5.1952577 and test error rate is: 4.5098677
+
+When the number of level is at most: 3 : 
+train error rate is: 4.2829022 and test error rate is: 4.4152203
+
+When the number of level is at most: 4 : 
+train error rate is: 3.2235057 and test error rate is: 4.478786
+
+When the number of level is at most: 5 : 
+train error rate is: 2.5484803 and test error rate is: 4.7038245
+
+When the number of level is at most: 6 : 
+train error rate is: 1.7862723 and test error rate is: 4.9623165
+
+When the number of level is at most: 7 : 
+train error rate is: 1.0782453 and test error rate is: 4.8076105
+
+When the number of level is at most: 8 : 
+train error rate is: 0.5367358 and test error rate is: 4.81286
+
+When the number of level is at most: 9 : 
+train error rate is: 0.2692146 and test error rate is: 4.8483787
+
+When the number of level is at most: 10 : 
+train error rate is: 0.06216519 and test error rate is: 4.8390207
+
+When the number of level is at most: 11 : 
+train error rate is: 0.0075984397 and test error rate is: 4.8368382

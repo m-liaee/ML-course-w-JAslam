@@ -1,0 +1,9 @@
+
+public class Util {
+
+	public static void separate_x_y(double[][] whole_data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

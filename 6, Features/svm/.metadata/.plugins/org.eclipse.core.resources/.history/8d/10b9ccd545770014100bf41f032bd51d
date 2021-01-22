@@ -1,0 +1,19 @@
+public class SVM {
+	
+	SVM_Param svm_parameter;
+	double[] alphas;
+	
+	public SVM(SVM_Param p){
+		svm_parameter = p; 
+	}
+
+	public SVM_Model train(double[][] train_data){
+		
+		
+		return null; 
+	}
+	
+	public int predict( SVM_Model model, double[] single_data_f){
+		return 0; 
+	}
+}

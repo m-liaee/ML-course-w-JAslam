@@ -1,0 +1,33 @@
+
+public class main_spambase {
+
+	public static void main(String[] args){
+		
+		double [][] whole_data = FileReading.ReadFile("spambase.data");
+		
+		int n = whole_data.length; 
+		int m = whole_data[0].length-1; 
+		
+		int test_size = n /10; 
+		int train_size = n - test_size; 		
+		
+		double [][] train_data = new double[train_size][]; 
+		double [][] test_data = new double[test_size][];
+		
+		preprocess_data(whole_data, train_data, test_data );
+		
+		//System.out.println(train_data[1][1]);
+		 
+//		
+
+//				
+		//Util.split_test_train(whole_data, train_data, test_data);
+	}
+	
+	public static void preprocess_data (double[][] whole_data, 
+											double[][] train, double[][] test ){
+		 
+		
+		
+	}
+}

@@ -1,0 +1,41 @@
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+
+
+public class FileWriting {
+	
+	public FileWriting(){
+		
+	}
+	
+	public static void WriteDataToFile(String file_addr, double[][] data){
+		
+		PrintWriter writer;
+		try {
+			writer = new PrintWriter(file_addr, "UTF-8");
+			int len = data.length; 
+			int num_col = data[0].length; 
+			for(int i = 0 ; i < len ; i++){
+				String s = "" + data[i][0];
+				
+				for (int j = 1 ; j < num_col ; j++){ 
+					s = s + " " + data[i][j]; 
+				}
+				writer.println(s);
+			}
+			writer.close();
+		} catch (FileNotFoundException e) {
+
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+}

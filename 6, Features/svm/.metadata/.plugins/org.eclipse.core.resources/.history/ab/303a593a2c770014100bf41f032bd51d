@@ -1,0 +1,19 @@
+
+public class main_spambase {
+
+	public static void main(String[] args){
+		
+		FileReading fr = new FileReading(); 
+		fr.ReadFile("spambase.data");
+		
+		
+		
+		
+		
+		 
+		
+		//Util.split_test_train(whole_data, train_data, test_data);
+	}
+	
+
+}

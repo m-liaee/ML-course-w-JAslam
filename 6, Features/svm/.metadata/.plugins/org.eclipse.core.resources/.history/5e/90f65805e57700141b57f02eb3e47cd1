@@ -1,0 +1,11 @@
+
+public class SVM_Param {
+	int kernel_type; 
+	int degree; 
+	double coeff; 
+	double C; 
+	
+	double gamma; 
+	double epsilon; 
+	
+}

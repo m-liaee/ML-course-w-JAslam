@@ -1,0 +1,9 @@
+
+public class SVM {
+	
+	public SVM(SVM_Param){
+		
+	}
+
+	public SVM_Model train () 
+}

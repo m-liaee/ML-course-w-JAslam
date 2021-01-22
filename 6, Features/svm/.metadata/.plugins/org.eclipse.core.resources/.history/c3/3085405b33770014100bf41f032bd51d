@@ -1,0 +1,39 @@
+
+public class Util {
+
+	public static double [][] getNormalizedData(double[][] data, boolean use_vector,  double[] minn, double[] maxx){
+		int n = data.length; 
+		int m = data[0].length; 
+		
+		double [][] normal_data = new double [n][m]; 
+		
+		if (use_vector){
+			for (int j = 0 ; j < m;  j++){
+				for (int i = 0 ; i < n ; i++){
+					normal_data[i][j] = (data[i][j] - minn[j])/maxx[j];
+				}
+				
+			}
+			
+		}else{
+		
+			for (int j = 0 ; j < m ; j++){
+				
+				double [] temp = getTableColumn_j(data, j);
+				double max_val = getMaxVal(temp); 
+				double min_val = getMinVal(temp);
+				
+				minn[j] = min_val; 
+				maxx[j] = max_val; 
+				
+				for (int i = 0 ; i < n ; i++){
+					
+					normal_data[i][j] = (data[i][j] - min_val) / max_val; 
+				}
+			}
+		}
+		return normal_data; 
+		
+	}
+
+}
